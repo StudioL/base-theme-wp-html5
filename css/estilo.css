@@ -1,0 +1,144 @@
+body {
+	font: normal 1em/1.2em Arial,Sans-Serif;
+	color: #333;
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+img {
+border: 0px;
+}
+
+
+/*===============*/
+/*=== RELLENO ===*/
+/*===============*/
+header{ border: 1px dotted red; padding: 10px; margin: 10px; background-color: #fff; }
+nav{ border: 1px dotted red; padding: 10px; margin: 10px; background-color: #fff; }
+section{ border: 1px dotted red; padding: 10px; margin: 10px; background-color: #fff; }
+article{ border: 1px dotted red; padding: 10px; margin: 10px; background-color: #fff; }
+aside{ border: 1px dotted red; padding: 10px; margin: 10px; background-color: #fff; }
+footer{ border: 1px dotted red; padding: 10px; margin: 10px; background-color: #fff; }
+div#contenedor { min-width: 560px; max-width: 990px; margin: 0 auto; vertical-align: top; border: 1px dotted blue; text-align: left; }
+div#contenedor2 { text-align: left; }
+section#contenido { display: inline-block; vertical-align: top; min-width: 560px; max-width: 700px; box-sizing:border-box; -moz-box-sizing:border-box; }
+section#lateral{ display: inline-block; vertical-align: top; width: 200px; }
+
+@media screen and (max-width:600px){
+	header { background-color: yellow; }
+}
+
+/*===============*/
+/*=== RELLENO ===*/
+/*===============*/
+
+section#main {
+	display: inline-block;
+	vertical-align: top;
+	width: 55%;
+}
+
+section#sidebar {
+	display: inline-block;
+	vertical-align: top;
+	width: 35%;	
+}
+
+section.footer-widgets {
+	display: inline-block;
+	vertical-align: top;
+	width: 29%;	
+}
+
+/*=====================*/
+/*=== CLASES THUMBS ===*/
+/*=====================*/
+img.wp-post-image {}
+img.attachment-thumbnail {}
+img.attachment-medium {}
+img.attachment-large {}
+img.attachment-full {}
+
+/*======================*/
+/*=== CLASES SUELTAS ===*/
+/*======================*/
+.expansor { clear: both; }
+
+
+
+/*============================*/
+/*=== COMENTARIOS ANIDADOS ===*/
+/*============================*/
+.commentlist li {
+  list-style: none !important;
+}
+.comment-body {
+  padding: 15px;
+}
+.comment-author {
+  margin-top: 5px;
+}
+.reply,  .commentmetadata {
+  font-size: 0.9em;
+}
+.depth-1, .depth-2, .depth-3, .depth-4 {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+.depth-1, .depth-3 {
+  background-color: #fafafa;
+}
+.depth-2, .depth-4 {
+ background-color: #fff;
+}
+.comment-author-creativasfera {
+  border: 3px solid #eaeaea;
+  border-left:3px solid #fbc356;
+}
+.depth-1 {
+ margin: 20px 0;
+}
+/* Respuesta a comentarios*/
+.depth-2 {
+  margin:2% 5% !important;
+}
+.depth-3 {
+ margin: 2% 7% !important;
+}
+.depth-4 {
+  margin:2% 5% 4% 10% !important;
+}
+#comment, #author, #email {
+  border-radius: 4px;
+  border:2px solid #ccc;
+}
+
+/*================*/
+/*== Pagination ==*/
+/*================*/
+.pagination {
+clear:both;
+padding:20px 0;
+position:relative;
+font-size:11px;
+line-height:13px;
+}
+.pagination span, .pagination a {
+display:block;
+float:left;
+margin: 2px 2px 2px 0;
+padding:6px 9px 5px 9px;
+text-decoration:none;
+width:auto;
+color:#fff;
+background: #555;
+}
+.pagination a:hover{
+color:#fff;
+background: #3279BB;
+} 
+.pagination .current{
+padding:6px 9px 5px 9px;
+background: #3279BB;
+color:#fff;
+}

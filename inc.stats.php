@@ -1,0 +1,3 @@
+<!-- INICIO ESTADÍSTICAS -->
+
+<!-- FIN ESTADÍSTICAS -->
